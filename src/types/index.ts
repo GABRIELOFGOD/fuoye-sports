@@ -20,7 +20,7 @@ export interface TeamTypes {
 export interface FeatureTypes {
   home: TeamTypes;
   away: TeamTypes;
-  date: Date,
+  date: string,
   time: string,
   venue: string;
   referee: string;
